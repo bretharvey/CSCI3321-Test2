@@ -39,7 +39,6 @@ public class CustomerOrderTest {
         assertEquals(10.00, order.getTotalAmount(), 0.01);
     }
 
-	// ToDo: Test inventory update when an order is placed
 	// Add an item to the order and reduce its stock. Verify that the inventory count is updated correctly.
     @Test
     public void testInventoryUpdate() {
